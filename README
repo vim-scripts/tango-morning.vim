@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2640
+
+"tango-morning" is a colorscheme inspired by the "morning" colorscheme by Bram.
+The gui colors use the Tango Color palette, while the terminal colors are retained from the "morning" colorscheme.
+The "morning" color scheme has problems in displaying diffs, which this theme tries to address, and uses elegant soft shades.
+
+Sample Screenshot :http://img190.imageshack.us/img190/1848/vimtangomorningtheme.png
