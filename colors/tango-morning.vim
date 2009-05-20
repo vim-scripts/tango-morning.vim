@@ -1,6 +1,7 @@
 " Vim color file
-" Maintainer:	N Vineeth <nvineeth a-t gmail>
+" Maintainer:	N Vineeth <nvineeth a-t yahoo>
 " Last Change:	2009 May 19
+" Version: 0.2
 
 " This color scheme uses a light grey background.
 " Based on "morning" color scheme and 
@@ -32,10 +33,13 @@ hi Cursor guibg=#8ae234 guifg=NONE
 hi lCursor guibg=#8ae234 guifg=NONE
 hi Directory term=bold ctermfg=DarkBlue guifg=#3465a4
 hi LineNr term=underline ctermfg=Brown guifg=#8f5902
-"hi MatchParen guibg=#fce94f
-hi MatchParen guibg=#729fcf guifg=#eeeeec
+hi MatchParen guibg=#204a87 guifg=#eeeeec
 hi MoreMsg term=bold ctermfg=DarkGreen gui=bold guifg=#4e9a06
-hi NonText term=bold ctermfg=Blue gui=bold guifg=#3465a4 guibg=#555753
+hi NonText term=bold ctermfg=Blue gui=bold guifg=#204a87 guibg=#d3d7cf
+hi PmenuSel guibg=#204a87 guifg=#eeeeec
+hi Pmenu guibg=#3465a4 guifg=#eeeeec
+hi PmenuSbar guibg=#729fcf guifg=#204a87
+hi PmenuThumb guibg=#729fcf guifg=#204a87
 hi Question term=standout ctermfg=DarkGreen gui=bold guifg=#4e9a06
 hi Search term=reverse ctermbg=Yellow ctermfg=NONE guibg=#edd400 guifg=NONE
 hi SpecialKey term=bold ctermfg=DarkBlue guifg=#3465a4
@@ -44,7 +48,7 @@ hi WarningMsg term=standout ctermfg=DarkRed guifg=#cc0000
 hi WildMenu term=standout ctermbg=Yellow ctermfg=Black guibg=#edd400 guifg=#888a85
 hi Folded term=standout ctermbg=Grey ctermfg=DarkBlue guibg=#d3d7cf guifg=#204a87
 hi FoldColumn term=standout ctermbg=Grey ctermfg=DarkBlue guibg=#888a85 guifg=#204a87
-hi DiffAdd term=bold ctermbg=LightBlue guibg=#729fcf guifg=#eeeeec
+hi DiffAdd term=bold ctermbg=LightBlue guibg=#204a87 guifg=#eeeeec
 hi DiffChange term=bold ctermbg=LightMagenta guibg=#e9b96e
 hi DiffDelete term=bold ctermfg=Blue ctermbg=LightCyan gui=bold guifg=#3465a4 guibg=#d3d7cf
 hi CursorLine term=underline cterm=underline guibg=#555753
@@ -60,8 +64,7 @@ hi Type guifg=#4e9a06
 hi Special term=bold ctermfg=DarkMagenta guifg=#ce5c00 guibg=#eeeeec
 hi Underlined guifg=#204a87
 hi Ignore ctermfg=LightGrey guifg=#555753
-hi Error guibg=#cc0000
-hi Todo guibg=#fce94f
-"hi Identifier guifg=#888a87 
+hi Error guibg=#cc0000 guifg=#eeeeec
+hi Todo guibg=#fce94f guifg=#204a87
 
 " vim: sw=2
